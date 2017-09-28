@@ -1,0 +1,11 @@
+// font-size: 62.5%; Sets up the Base base font-size to an equivalent of 10px - Doing this makes it a lot easier to convert px sizes into rem sizes.
+
+html
+	font-size: 62.5%
+
+@mixin font-size($sizeValue: 1.6)
+	// font-size: ($sizeValue) + px
+	font-size: ($sizeValue/10) + rem
+
+// Usage
+//@include font-size(14)

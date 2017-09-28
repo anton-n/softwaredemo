@@ -1,0 +1,12 @@
+@mixin placeholder($color)
+	&:-moz-placeholder, /* Mozilla Firefox 4 to 18 */
+	&::-moz-placeholder /* Mozilla Firefox 19+ */
+		color: $color
+		opacity: 1
+	&::-webkit-input-placeholder /* WebKit browsers */
+		color: $color
+	&:-ms-input-placeholder /* Internet Explorer 10+ */
+		color: $color
+
+// @import "_mixins/placeholder"
+// +placeholder(#000)

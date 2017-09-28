@@ -1,0 +1,11 @@
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal)
+	@font-face
+		font-family: $font-family
+		src: font-url('#{$file-path}.eot') /* IE9 Compat Modes */
+		src: font-url('#{$file-path}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		font-url('#{$file-path}.woff2') format('woff2'), /* Super Modern Browsers */
+		font-url('#{$file-path}.woff') format('woff'), /* Pretty Modern Browsers */
+		font-url('#{$file-path}.ttf') format('truetype'), /* Safari, Android, iOS */
+		font-url('#{$file-path}.svg##{$font-family}') format('svg') /* Legacy iOS */
+		font-weight: $weight
+		font-style: $style
