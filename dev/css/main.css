@@ -1,25 +1,4 @@
 @charset "UTF-8";
-@font-face {
-	font-family: "Montserrat";
-	src: url("../fonts/MontserratRegular/MontserratRegular.woff2") format("woff2"), url("../fonts/MontserratRegular/MontserratRegular.woff") format("woff"), url("../fonts/MontserratRegular/MontserratRegular.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Montserrat";
-	src: url("../fonts/MontserratBold/MontserratBold.woff2") format("woff2"), url("../fonts/MontserratBold/MontserratBold.woff") format("woff"), url("../fonts/MontserratBold/MontserratBold.ttf") format("truetype");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Montserrat";
-	src: url("../fonts/MontserratExtraLight/MontserratExtraLight.woff2") format("woff2"), url("../fonts/MontserratExtraLight/MontserratExtraLight.woff") format("woff"), url("../fonts/MontserratExtraLight/MontserratExtraLight.ttf") format("truetype");
-	font-weight: 200;
-	font-style: normal;
-}
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
